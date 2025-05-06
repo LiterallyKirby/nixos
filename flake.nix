@@ -39,8 +39,8 @@
 
   outputs = inputs@{ nixpkgs, ... }: {
     nixosConfigurations = {
-      kirby =
-        nixpkgs.lib.faggatron {
+      faggatron =
+        nixpkgs.lib.nixosSystem {
           system = "x86_64-linux";
           modules = [
             {
