@@ -15,6 +15,7 @@
     location = "America";
     timeZone = "America/Chicago";
     defaultLocale = "en_US.UTF-8";
+    extraLocale = "en_US.UTF-8";
 
     git = {
       username = "LiteralyKirby";
